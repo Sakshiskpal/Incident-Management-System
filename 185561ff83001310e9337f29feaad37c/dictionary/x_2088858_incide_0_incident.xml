@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="c976657383401310e9337f29feaad30c" label="Incident" max_length="40" name="x_2088858_incide_0_incident" type="collection">
+        <element label="Work Notes" max_length="40" name="note" type="journal_input"/>
+        <element label="Caller" mandatory="true" max_length="32" name="caller" reference="sys_user" type="reference"/>
+        <element choice="1" label="Impact" mandatory="true" max_length="40" name="impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="2" value="low"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="High" sequence="0" value="high"/>
+            </choice>
+        </element>
+        <element label="Resolved On" max_length="40" name="resolved_on" type="glide_date_time"/>
+        <element label="Resolution Time" max_length="40" name="resolution_time" type="string"/>
+        <element label="Subcategory" max_length="40" name="subcategory" type="string"/>
+        <element choice="1" label="Priority" mandatory="true" max_length="255" name="priority" read_only="true" read_only_option="display_read_only" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="P1 - High" sequence="1" value="p1_high"/>
+                <element inactive_on_update="false" label="P4 - Low" sequence="3" value="p4_low"/>
+                <element inactive_on_update="false" label="P1 - Critical" sequence="0" value="p1_critical"/>
+                <element inactive_on_update="false" label="P3 - Medium" sequence="2" value="p3_medium"/>
+            </choice>
+        </element>
+        <element choice="1" label="Assignment Group" max_length="40" name="assignment_group" read_only="true" read_only_option="display_read_only" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Network Team" sequence="0" value="network_team"/>
+                <element inactive_on_update="false" label="Service Team" sequence="4" value="service_team"/>
+                <element inactive_on_update="false" label="Messaging Team" sequence="2" value="messaging_team"/>
+                <element inactive_on_update="false" label="Hardware Team" sequence="3" value="hardware_team"/>
+                <element inactive_on_update="false" label="Application Team" sequence="1" value="application_team"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="SLA Due Date" max_length="40" name="sla_due_date" read_only="true" read_only_option="display_read_only" type="glide_date_time"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element choice="1" label="Category" mandatory="true" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hardware" sequence="1" value="hardware"/>
+                <element inactive_on_update="false" label="Access" sequence="5" value="access"/>
+                <element inactive_on_update="false" label="Email" sequence="3" value="email"/>
+                <element inactive_on_update="false" label="Network" sequence="0" value="network"/>
+                <element inactive_on_update="false" label="Application" sequence="4" value="application"/>
+                <element inactive_on_update="false" label="Software" sequence="2" value="software"/>
+            </choice>
+        </element>
+        <element choice="1" label="SLA Status" max_length="40" name="sla_status" read_only="true" read_only_option="display_read_only" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Breached" sequence="1" value="breached"/>
+                <element inactive_on_update="false" label="Within SLA" sequence="0" value="within_sla"/>
+            </choice>
+        </element>
+        <element choice="3" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Resolved" sequence="3" value="resolved"/>
+                <element inactive_on_update="false" label="Assigned" sequence="1" value="assigned"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="closed"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="in_progress"/>
+            </choice>
+        </element>
+        <element label="Resolution Notes" max_length="40" name="resolution_notes" type="string"/>
+        <element label="Incident Number" mandatory="true" max_length="40" name="incident_number" read_only="true" read_only_option="display_read_only" type="string"/>
+        <element label="Short Description" mandatory="true" max_length="40" name="short_description" type="string"/>
+        <element choice="1" label="Urgency" mandatory="true" max_length="40" name="urgency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="2" value="low"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="High" sequence="0" value="high"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="caller"/>
+        </index>
+    </element>
+</database>

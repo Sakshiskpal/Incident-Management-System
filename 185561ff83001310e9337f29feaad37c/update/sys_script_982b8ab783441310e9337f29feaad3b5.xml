@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_2088858_incide_0_incident</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Auto Assignment Group</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous) {
+
+    var category = current.category + '';
+
+    if (category == 'network') {
+        current.assignment_group = 'Network Team';
+    }
+    else if (category == 'hardware') {
+        current.assignment_group = 'Hardware Team';
+    }
+    else if (category == 'software') {
+        current.assignment_group = 'Application Team';
+    }
+    else if (category == 'email') {
+        current.assignment_group = 'Messaging Team';
+    }
+    else if (category == 'access') {
+        current.assignment_group = 'Service Desk';
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-27 11:10:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>982b8ab783441310e9337f29feaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto Assignment Group</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Incident Management System" source="x_2088858_incide_0">185561ff83001310e9337f29feaad37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Management System">185561ff83001310e9337f29feaad37c</sys_scope>
+        <sys_update_name>sys_script_982b8ab783441310e9337f29feaad3b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-27 11:10:45</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=982b8ab783441310e9337f29feaad3b5"/>
+</record_update>

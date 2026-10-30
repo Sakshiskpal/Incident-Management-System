@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Create Incident">95d30ce0839c1710e9337f29feaad39e</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>Monitor incidents, SLA compliance and team performance</hint>
+        <homepage/>
+        <image/>
+        <karuna_route/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Incident Dashboard</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>params</name>
+        <order>800</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>now/platform/dashboard/params/sys-id/aea1946c83dc1710e9337f29feaad3d5/module/3561502c83dc1710e9337f29feaad39b</query>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_2088858_incide_0.Incident_Manager</roles>
+        <route display_value="Dashboard">7c90512153d53210526a657920e5e6fc</route>
+        <screen display_value="Dashboard default">0d90912153d53210526a657920e5e610</screen>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-29 10:13:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3561502c83dc1710e9337f29feaad39b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Incident Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Incident Management System" source="x_2088858_incide_0">185561ff83001310e9337f29feaad37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Management System">185561ff83001310e9337f29feaad37c</sys_scope>
+        <sys_update_name>sys_app_module_3561502c83dc1710e9337f29feaad39b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-29 10:26:01</sys_updated_on>
+        <timeline_page/>
+        <title>Incident Dashboard</title>
+        <uncancelable>false</uncancelable>
+        <ux_list/>
+        <view_name>sys-id</view_name>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Incident Management System">185561ff83001310e9337f29feaad37c</application>
+        <file_path/>
+        <instance_id>90a7e20deb2cc794cbbffceacad0cdb3</instance_id>
+        <instance_name>dev393228</instance_name>
+        <merge_base/>
+        <name>sys_app_module_3561502c83dc1710e9337f29feaad39b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Create Incident">95d30ce0839c1710e9337f29feaad39e</application><assessment/><device_type/><filter/><hint>Monitor incidents, SLA compliance and team performance</hint><homepage/><image/><karuna_route/><link_type>DIRECT</link_type><map_page/><mobile_title>Incident Dashboard</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>params</name><order>800</order><override_menu_roles>false</override_menu_roles><query>now/platform/dashboard/params/sys-id/aea1946c83dc1710e9337f29feaad3d5/module/3561502c83dc1710e9337f29feaad39b</query><report/><require_confirmation>true</require_confirmation><roles>x_2088858_incide_0.Incident_Manager</roles><route display_value="Dashboard">7c90512153d53210526a657920e5e6fc</route><screen display_value="Dashboard default">0d90912153d53210526a657920e5e610</screen><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-29 10:13:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3561502c83dc1710e9337f29feaad39b</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Incident Dashboard</sys_name><sys_overrides/><sys_package display_value="Incident Management System" source="x_2088858_incide_0">185561ff83001310e9337f29feaad37c</sys_package><sys_policy/><sys_scope display_value="Incident Management System">185561ff83001310e9337f29feaad37c</sys_scope><sys_update_name>sys_app_module_3561502c83dc1710e9337f29feaad39b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-29 10:26:01</sys_updated_on><timeline_page/><title>Incident Dashboard</title><uncancelable>false</uncancelable><ux_list/><view_name>sys-id</view_name><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>613169307</payload_hash>
+        <record_name>Incident Dashboard</record_name>
+        <reverted_from/>
+        <source>d45561ff83001310e9337f29feaad392</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-29 10:26:01</sys_created_on>
+        <sys_id>019418e083105710e9337f29feaad300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a18731fa290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-29 10:26:01</sys_updated_on>
+        <type>Module</type>
+        <update_guid>cd94d4e09310571016b32ea23c6463fe</update_guid>
+        <update_guid_history>cd94d4e09310571016b32ea23c6463fe:613169307,75739460b3105710842608f6a9196be5:-1446879011,bea11c6cb7dc1710e50a39ec5de28ec0:-1172806723</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Incident Dashboard">ad06186483105710e9337f29feaad395</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-29 10:32:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>187fc8bea901495086cc38640b647ce4</sys_id>
+        <sys_metadata>3561502c83dc1710e9337f29feaad39b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incident Dashboard</sys_name>
+        <sys_package display_value="Incident Management System" source="x_2088858_incide_0">185561ff83001310e9337f29feaad37c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Incident Management System">185561ff83001310e9337f29feaad37c</sys_scope>
+        <sys_scope_delete display_value="">2b0e02bdc65649fca430efa70f8bc590</sys_scope_delete>
+        <sys_update_name>sys_app_module_3561502c83dc1710e9337f29feaad39b</sys_update_name>
+        <sys_update_version display_value="sys_app_module_3561502c83dc1710e9337f29feaad39b">019418e083105710e9337f29feaad300</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-29 10:32:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

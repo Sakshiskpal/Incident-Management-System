@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_2088858_incide_0_incident</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_2088858_incide_0_incident">stateCHANGESTOresolved^EQ<item display_value="Resolved" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="resolved"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Calculate Resolution Time</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous) {
+
+current.resolved_on = new GlideDateTime();
+
+})();]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-27 15:17:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cbc2cf3f83c81310e9337f29feaad3bd</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Calculate Resolution Time</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Incident Management System" source="x_2088858_incide_0">185561ff83001310e9337f29feaad37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Management System">185561ff83001310e9337f29feaad37c</sys_scope>
+        <sys_update_name>sys_script_cbc2cf3f83c81310e9337f29feaad3bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-28 08:26:13</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=cbc2cf3f83c81310e9337f29feaad3bd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Incident Management System">185561ff83001310e9337f29feaad37c</application>
+        <file_path/>
+        <instance_id>90a7e20deb2cc794cbbffceacad0cdb3</instance_id>
+        <instance_name>dev393228</instance_name>
+        <merge_base/>
+        <name>sys_script_cbc2cf3f83c81310e9337f29feaad3bd</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_2088858_incide_0_incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_2088858_incide_0_incident"&gt;stateCHANGESTOresolved^EQ&lt;item display_value="Resolved" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="resolved"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Calculate Resolution Time&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous) {
+
+current.resolved_on = new GlideDateTime();
+
+})();]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-27 15:17:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cbc2cf3f83c81310e9337f29feaad3bd&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Calculate Resolution Time&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Incident Management System" source="x_2088858_incide_0"&gt;185561ff83001310e9337f29feaad37c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Incident Management System"&gt;185561ff83001310e9337f29feaad37c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_cbc2cf3f83c81310e9337f29feaad3bd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-28 08:26:13&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=cbc2cf3f83c81310e9337f29feaad3bd"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1929988775</payload_hash>
+        <record_name>Calculate Resolution Time</record_name>
+        <reverted_from/>
+        <source>d45561ff83001310e9337f29feaad392</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 08:26:13</sys_created_on>
+        <sys_id>dc9f6e0083d49310e9337f29feaad3d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1819ded470000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-28 08:26:13</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>589f6e0006d49310f8690d0995c5bbd4</update_guid>
+        <update_guid_history>589f6e0006d49310f8690d0995c5bbd4:1929988775,d49e0fb3f14c13101bf01c7fa4712c75:-608325620,ed5d8733374c13103589ee7a10dd57b8:-627212236,da4d4733684c1310234052164c4a1828:-171390228,939c4bbfcf0c131048beecb4d617c0d8:-671784358,dbbb877f340c1310bbc623c0ba7b4503:-128443467,89074f37c10c1310a1224006850d1df5:578375355,050407ffa4c813106e71e79e7e9f764e:-931052556</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-28 08:31:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>571fabed180a484c81c9695b7f530d39</sys_id>
+        <sys_metadata>cbc2cf3f83c81310e9337f29feaad3bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Calculate Resolution Time</sys_name>
+        <sys_package display_value="Incident Management System" source="x_2088858_incide_0">185561ff83001310e9337f29feaad37c</sys_package>
+        <sys_parent display_value="Incide 0 Incident">c976657383401310e9337f29feaad30c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Incident Management System">185561ff83001310e9337f29feaad37c</sys_scope>
+        <sys_scope_delete display_value="">2b0e02bdc65649fca430efa70f8bc590</sys_scope_delete>
+        <sys_update_name>sys_script_cbc2cf3f83c81310e9337f29feaad3bd</sys_update_name>
+        <sys_update_version display_value="sys_script_cbc2cf3f83c81310e9337f29feaad3bd">dc9f6e0083d49310e9337f29feaad3d5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-28 08:31:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
