@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <role display_value="x_2088858_incide_0.Incident_Manager" name="x_2088858_incide_0.Incident_Manager">a8c2cc68831c1710e9337f29feaad35d</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-29 09:09:35</sys_created_on>
+        <sys_id>d913c0e8831c1710e9337f29feaad35a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a8c2cc68831c1710e9337f29feaad35d</sys_name>
+        <sys_package display_value="Incident Management System" source="x_2088858_incide_0">185561ff83001310e9337f29feaad37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Management System">185561ff83001310e9337f29feaad37c</sys_scope>
+        <sys_update_name>sys_embedded_help_role_d913c0e8831c1710e9337f29feaad35a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-29 09:09:35</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

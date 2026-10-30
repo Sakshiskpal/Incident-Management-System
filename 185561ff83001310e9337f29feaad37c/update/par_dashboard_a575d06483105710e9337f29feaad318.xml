@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard">
+    <par_dashboard action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_dashboard display_value="Incident Management Dashboard">d7caf60483189310e9337f29feaad3cd</base_dashboard>
+        <certified>false</certified>
+        <description/>
+        <experience/>
+        <grid>48</grid>
+        <name>Incident Management Dashboard - Copy</name>
+        <ready_to_migrate>Not Applicable</ready_to_migrate>
+        <sys_class_name>par_dashboard</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-29 10:29:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a575d06483105710e9337f29feaad318</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Incident Management Dashboard - Copy</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Incident Management System" source="x_2088858_incide_0">185561ff83001310e9337f29feaad37c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Management System">185561ff83001310e9337f29feaad37c</sys_scope>
+        <sys_update_name>par_dashboard_a575d06483105710e9337f29feaad318</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-29 10:29:53</sys_updated_on>
+        <sys_ux_app_config/>
+        <sys_ux_app_route/>
+        <sys_ux_macroponent/>
+        <sys_ux_screen/>
+        <sys_ux_screen_type/>
+    </par_dashboard>
+</record_update>

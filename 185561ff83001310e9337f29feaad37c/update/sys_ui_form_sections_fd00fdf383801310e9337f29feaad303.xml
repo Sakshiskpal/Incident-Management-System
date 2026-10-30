@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="fd00fdf383801310e9337f29feaad303" sys_domain="global" table="x_2088858_incide_0_incident" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-27 09:10:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b500fdf383801310e9337f29feaad30a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2088858_incide_0_incident" name="x_2088858_incide_0_incident" sys_domain="global" view="Default view">fd00fdf383801310e9337f29feaad303</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_2088858_incide_0_incident" sys_domain="global" view="Default view">6d762d7f83001310e9337f29feaad368</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-27 09:10:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-27 09:10:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b100fdf383801310e9337f29feaad30c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2088858_incide_0_incident" name="x_2088858_incide_0_incident" sys_domain="global" view="Default view">fd00fdf383801310e9337f29feaad303</sys_ui_form>
+            <sys_ui_section caption="Additional Comments" display_value="Additional Comments" name="x_2088858_incide_0_incident" sys_domain="global" view="Default view">fd00fdf383801310e9337f29feaad301</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-27 09:10:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_2088858_incide_0_incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-27 09:10:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd00fdf383801310e9337f29feaad303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2088858_incide_0_incident</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Incident Management System" source="x_2088858_incide_0">185561ff83001310e9337f29feaad37c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Incident Management System">185561ff83001310e9337f29feaad37c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_fd00fdf383801310e9337f29feaad303</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-27 09:10:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
