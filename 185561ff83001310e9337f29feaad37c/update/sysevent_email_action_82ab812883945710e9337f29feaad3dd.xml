@@ -40,19 +40,20 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<div>Hello,</div>
+        <message_html><![CDATA[<div>Hello ${caller.name},</div>
 <div>&nbsp;</div>
 <div>Your incident has been resolved.</div>
 <div>&nbsp;</div>
-<div>Incident Number: ${incident_number}</div>
+<div>Incident Number: ${number}</div>
+<div>Short Description: ${short_description}</div>
 <div>&nbsp;</div>
-<div>Resolution Time:</div>
-<div>${resolution_time}</div>
+<div>Resolution Notes:</div>
+<div>${resolution_notes}</div>
 <div>&nbsp;</div>
-<div>Please verify the resolution.</div>
+<div>If the issue persists, please raise a new incident.</div>
 <div>&nbsp;</div>
 <div>Regards,</div>
-<div>Incident Management Team</div>]]></message_html>
+<div>Service Desk</div>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Incident Resolved</name>
@@ -66,7 +67,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Incident ${incident_number} Resolved</subject>
+        <subject>Incident ${number} Resolved</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -74,7 +75,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>82ab812883945710e9337f29feaad3dd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Incident Resolved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Incident Management System" source="x_2088858_incide_0">185561ff83001310e9337f29feaad37c</sys_package>
@@ -82,7 +83,7 @@
         <sys_scope display_value="Incident Management System">185561ff83001310e9337f29feaad37c</sys_scope>
         <sys_update_name>sysevent_email_action_82ab812883945710e9337f29feaad3dd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-10-29 14:29:25</sys_updated_on>
+        <sys_updated_on>2026-10-30 09:05:07</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
